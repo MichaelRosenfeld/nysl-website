@@ -2,33 +2,44 @@
 <html dir="ltr" lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,500&display=swap"
+          rel="stylesheet">
+    <link href="stylesheets/styles.css" rel="stylesheet">
+    <link href="stylesheets/home.css" rel="stylesheet">
+
     <title>Home</title>
 </head>
 <body>
-<div id="logo">
-    <img alt="logo" src="Assets/images/nysl_logo.png">
+<div id="header">
+    <h1><em>Northside Youth Soccer League</em></h1>
 </div>
-<div class="header">
-    <h1>Northside Youth Soccer League</h1>
-</div>
-<div class="navbar">
-    <p><a href="index.html">Home</a> <a href="about.html">About NYSL</a> <a href="contact.html">Contact</a></p>
-</div>
-<div class="image">
-    <img alt="soccer image" src="Assets/images/soccer_image1.jpeg">
-</div>
-<div class="events">
+<div class="top-container">
+    <div id="navbar">
+        <button><a class="nav-element" href="index.html">Home</a></button>
+        <button><a class="nav-element" href="about.html">About NYSL</a></button>
+        <button><a class="nav-element" href="contact.html">Contact</a></button>
+    </div>
     <div class="event-header">
         <h2>Upcoming Events</h2>
     </div>
-    <div class="event-content">
-        <em>August 4</em>
-        <p>NYSL Fundraiser</p>
-        <em>August 16</em>
-        <p>Season Kick-off: Meet the Teams</p>
-        <em>September 1</em>
-        <p>First Game of the Season (Check Game Schedule for details)</p>
+</div>
+<div class="bottom-container">
+    <div>
+        <img id="logo" alt="logo" src="Assets/images/nysl_logo.png">
+    </div>
+    <div class="events">
+        <div class="event-content">
+            <em>August 4</em>
+            <p>NYSL Fundraiser</p>
+            <em>August 16</em>
+            <p>Season Kick-off: Meet the Teams</p>
+            <em>September 1</em>
+            <p>First Game of the Season (Check Game Schedule for details)</p>
+        </div>
     </div>
 </div>
 </body>
