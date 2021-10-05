@@ -28,13 +28,26 @@ h2 {
     color: #FEF1E6;
     text-align: center;
     background-color: #082032;
-
 }
 
 .logo-image {
     position: absolute;
     top: 75%;
     left: 70%;
+}
+
+.middle-container {
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+}
+
+.navbar {
+    padding-right: 30%;
+    display: flex;
+    flex-direction: column;
 }
 
 
