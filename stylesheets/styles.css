@@ -1,0 +1,45 @@
+h1 {
+    font-family: 'Rubik', sans-serif;
+    color: #FEF1E6;
+    font-size: 5.5rem;
+    position: absolute;
+    right: 19%;
+    bottom: 60%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Assets/images/design1_image1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50pc;
+}
+
+.event-header {
+    height: 6rem;
+    width: 100%;
+    color: #FEF1E6;
+    text-align: center;
+    background-color: #082032;
+
+}
+
+.logo-image {
+    position: absolute;
+    top: 75%;
+    left: 70%;
+}
+
+
+
+
+
+
+
