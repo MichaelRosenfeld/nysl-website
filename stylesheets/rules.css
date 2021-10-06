@@ -14,3 +14,36 @@
 .rules-header > h2 {
     font-size: 2rem;
 }
+
+.rules-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: left;
+    align-items: flex-end;
+}
+
+.rules-content > h2 {
+    padding-left: 15%;
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+}
+
+ol {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+}
+
+li {
+
+}
+
