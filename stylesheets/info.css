@@ -1,0 +1,13 @@
+.table-header {
+    text-align: center;
+    padding: 3%;
+}
+
+.table-info {
+    padding-left: 2em;
+}
+
+.tables {
+    display: flex;
+    justify-content: center;
+}
