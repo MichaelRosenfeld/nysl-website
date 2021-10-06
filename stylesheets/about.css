@@ -1,0 +1,21 @@
+.bottom-container {
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#logo {
+    width: 70%;
+    margin: 50px 100px 50px 50px;
+}
+
+.about {
+    position: absolute;
+    padding-top: 80px;
+    margin-left: 750px;
+    font-size: 1.5rem;
+}
+
+p {
+    padding-left: 50px;
+}
