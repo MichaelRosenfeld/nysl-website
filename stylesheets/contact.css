@@ -1,0 +1,20 @@
+.bottom-container {
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#logo {
+    margin: 50px 100px 50px 50px;
+}
+
+.contact-info {
+    position: absolute;
+    margin-left: 750px;
+    font-size: 1.5rem;
+    bottom: 200px;
+}
+
+p {
+    padding-left: 50px;
+}
