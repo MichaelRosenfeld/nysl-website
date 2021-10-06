@@ -1,0 +1,16 @@
+.rules-container {
+    text-align: center;
+    position:relative;
+}
+
+.rules-header {
+    padding: 40px;
+}
+
+.rules-header > h1 {
+    font-size: 3.5rem;
+}
+
+.rules-header > h2 {
+    font-size: 2rem;
+}
