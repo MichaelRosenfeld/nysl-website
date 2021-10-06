@@ -25,8 +25,9 @@
 }
 
 .rules-content > h2 {
-    padding-left: 15%;
-    text-align: left;
+    position: relative;
+    margin-left: 65%;
+    align-self: flex-start;
 }
 
 ul {
@@ -43,7 +44,15 @@ ol {
     width: 30%;
 }
 
-li {
+.nested-olist{
+    position: relative;
+    width: 100%;
+    padding-left: 10%;
+}
 
+.nested-ulist{
+    position: relative;
+    width: 100%;
+    padding-left: 10%;
 }
 
