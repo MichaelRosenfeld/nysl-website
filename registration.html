@@ -12,11 +12,94 @@
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@1,900&display=swap"
           rel="stylesheet">
+    <title>Registration Page</title>
 </head>
 <body>
+<STYLE>A {
+    text-decoration: none;
+} </STYLE>
+<div class="form">
+    <br>
+    <br>
+    <form>
+        <label>Player's First Name </label>
+        <input name="firstname" size="15" type="text"/> <br> <br>
+        <label> Last Name: </label>
+        <input name="lastname" size="15" type="text"/> <br> <br>
+        <label>
+            <label> Street Address: </label>
+            <input name="streetaddress" size="15" type="text"/> <br> <br>
+            <label>
+                <label> City: </label>
+                <input name="city" size="15" type="text"/> <br> <br>
+                <label>
+                    <label> Zip Code: </label>
+                    <input name="zipcode" size="15" type="text"/> <br> <br>
+                    <label>
+                        <label> Birth Date (mm/dd/yyyy): </label>
+                        <input name="birthdate" size="15" type="text"/> <br> <br>
+                        <label>
+                            <label>
+                                Gender :
+                            </label><br>
+                            <input name="male" type="radio"/> Male <br>
+                            <input name="female" type="radio"/> Female <br><br>
+                            <label>
+                                Grade:
+                            </label><br>
+                            <input name="Pre-School" type="radio"/> Pre-School <br>
+                            <input name="1st" type="radio"/> 1st <br>
+                            <input name="2nd" type="radio"/> 2nd <br>
+                            <input name="3rd" type="radio"/> 3rd <br>
+                            <input name="4th" type="radio"/> 4th <br>
+                            <input name="5th" type="radio"/> 5th <br><br>
+                            <label>Parent/Guardian: </label>
+                            <input name="parent" size="15" type="text"/> <br> <br>
+                            <label> Contact Phone: </label>
+                            <input name="phone" size="15" type="text"/> <br> <br>
+                            <label>Contact Email: </label>
+                            <input name="email" size="15" type="text"/> <br> <br>
+                            Course :
+                        </label>
+                        <select>
+                            <option value="Course">Course</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BBA">BBA</option>
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="MBA">MBA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="M.Tech">M.Tech</option>
+                        </select>
 
+                        <br>
+                        <br>
 
+                        <input name="other" type="radio"/> Other
+                        <br>
+                        <br>
 
-
+                        <label>
+                            Phone :
+                        </label>
+                        <input name="country code" size="2" type="text" value="+91"/>
+                        <input name="phone" size="10" type="text"/> <br> <br>
+                        Address
+                        <br>
+                        <textarea cols="80" rows="5" value="address"></textarea>
+                        <br> <br>
+                        Email:
+                        <input id="email" name="email" type="email"/> <br>
+                        <br> <br>
+                        Password:
+                        <input id="pass" name="pass" type="Password"> <br>
+                        <br> <br>
+                        Re-type password:
+                        <input id="repass" name="repass" type="Password"> <br> <br>
+                        <input type="button" value="Submit"/>
+    </form>
+    </div>
+</body>
+</html>
+</div>
 </body>
 </html>
